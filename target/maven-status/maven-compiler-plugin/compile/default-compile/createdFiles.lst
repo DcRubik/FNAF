@@ -1,0 +1,5 @@
+com\dcrubik\fnaf\managers\MapManager.class
+com\dcrubik\fnaf\FNAF.class
+com\dcrubik\fnaf\managers\CameraManager.class
+com\dcrubik\fnaf\scoreboard\ScoreboardHandler.class
+com\dcrubik\fnaf\managers\GameManager.class

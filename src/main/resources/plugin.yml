@@ -1,0 +1,28 @@
+name: FNAF
+version: 1.0.0
+main: com.dcrubik.fnaf.FNAF
+api-version: '1.21'
+authors: [DcRubik]
+description: Five Nights at Freddy's Minecraft Plugin
+
+commands:
+  setup:
+    description: Main FNAF command
+    aliases: [fnaf]
+    usage: /setup
+    permission: fnaf.use
+  start:
+    description: Start the game
+    usage: /start [mapa]
+    permission: fnaf.start
+
+permissions:
+  fnaf.use:
+    description: Basic FNAF command access
+    default: true
+  fnaf.setup:
+    description: Setup maps and locations
+    default: op
+  fnaf.start:
+    description: Start a game
+    default: op
