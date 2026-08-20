@@ -47,7 +47,7 @@ public class AnimatronicListener implements Listener {
 
     @EventHandler
     public void onSneak(PlayerToggleSneakEvent e) {
-        if (!e.isSneaking()) return; // solo al agacharse, no al levantarse
+        if (!e.isSneaking()) return;
         boolean wasInCamera = plugin.getCameraManager().exitCamera(e.getPlayer());
         if (wasInCamera) e.setCancelled(true);
     }
